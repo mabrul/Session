@@ -45,7 +45,7 @@ Buat Lu ID 5 atau ID 6 yang Baru Maen Telegram**
     ABOUT = """
 **Tentang Saya** 
 
-**Saya Dibuat Oleh [Rewe](https://t.me/rewe_anu)
+**Saya Dibuat Oleh [Rewe](https://t.me/Rewe_anu)
 
 Buat Lu Yang Baru Maen Tele Ya Anjeng..**
 
