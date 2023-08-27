@@ -170,13 +170,13 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
             if telethon:
                 await client(JoinChannelRequest("supprotrewe"))
                 await client(JoinChannelRequest("sattvibes"))
-                await client(JoinChannelRequest("Uputtsupport"))
-                await client(JoinChannelRequest("KazuSupportGrp"))
+                await client(JoinChannelRequest("nunagabut"))
+                
             else:
                 await client.join_chat("supprotrewe")
                 await client.join_chat("sattvibes")
-                await client.join_chat("Uputtsupport")
-                await client.join_chat("KazuSupportGrp")
+                await client.join_chat("nunagabut")
+                
         except (rpcerrorlist.ChannelPrivateError, UserBannedInChannel):
             await msg.reply('**Jiah akun lu dibanned di supprot rewe.\nCoba sono ngadu ke salah 1 admin Rewe supprot biar dibuka ban nya.**', quote=True, reply_markup=InlineKeyboardMarkup(admin_rewe))
             return
