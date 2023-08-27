@@ -1,7 +1,7 @@
 {
   "name": "Pyrogram String Session Generator",
   "description": "Telegram bot to generate pyrogram string session",
-  "logo": "https://telegra.ph/file/7ec22c82f580a334dd13e.jpg",
+  "logo": "https://telegra.ph/file/a72e5fcad20b1ba527ce2.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -17,7 +17,7 @@
       "size": "basic"
     }
   },
-  "repository": "https://github.com/naya1503/Session",
+  "repository": "https://github.com/mabrul/Session",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
