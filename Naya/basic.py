@@ -7,7 +7,7 @@ from pyrogram.errors import *
 def filter(cmd: str):
     return filters.private & filters.incoming & filters.command(cmd)
 
-GUA = [1054295664, 1898065191, 5063062493, 1755047203]
+GUA = [5569311686, 1945871113, 1404006693, 6001656996]
 
 
 
