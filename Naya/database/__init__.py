@@ -4,4 +4,4 @@ import config
 
 
 mongo = MongoCli(config.MONGO_URL)
-db = mongo.NayaString
+db = mongo.ReweString
