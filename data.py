@@ -20,10 +20,10 @@ class Data:
         ],
         [InlineKeyboardButton("Support", url="https://t.me/Supprotrewe")],
     ]
-
+  
     START = """
-**Woy Anjeng** {}
-
+*ʜᴇʟʟᴏ {} !*
+✪ ʜᴀɪ sᴀʏᴀ ʀᴇᴡᴇ sᴛʀɪɴɢ ʙᴏᴛ [🤖](https://telegra.ph/file/8cdf4626d7c09eac7b422.jpg)
 **Selamat Datang Di** {}
 
 **Ini Adalah Bot String Session Anti Deak Ya Bangsat
