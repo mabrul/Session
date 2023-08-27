@@ -43,12 +43,12 @@ buttons_ques = [
 
 admin_kynan = [
     [
-      InlineKeyboardButton(text="👮‍♂ Kazu", user_id=5063062493),
-      InlineKeyboardButton(text="👮‍♂ Kynan", user_id=1054295664),
+      InlineKeyboardButton(text="👮‍♂ rewe", user_id=5569311686),
+      InlineKeyboardButton(text="👮‍♂ piki", user_id=5170630278),
     ],
     [
-      InlineKeyboardButton(text="👮‍♂ Jhor", user_id=1755047203),
-      InlineKeyboardButton(text="👮‍♂ Omnya", user_id=1810243126),
+      InlineKeyboardButton(text="👮‍♂ rewe2", user_id=6001656996),
+      InlineKeyboardButton(text="👮‍♂ upput", user_id=1860375797),
     ],
   ]
 
@@ -164,21 +164,21 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**{ty.upper()} NIH JING.** \n\n`{string_session}` \n\n**Minimal Bilang Makasih Ke** @disinikazu **Atau Ke** @kazusupportgrp **Karna Akun Lu Kaga Deak**"
+    text = f"**{ty.upper()} NIH JING.** \n\n`{string_session}` \n\n**Minimal Bilang Makasih Ke** @rewe_anu **Atau Ke** @supprotrewe **Karna Akun Lu Kaga Deak**"
     try:
         try:
             if telethon:
-                await client(JoinChannelRequest("kazusupportgrp"))
-                await client(JoinChannelRequest("veaperas1k"))
-                await client(JoinChannelRequest("Html12text"))
-                await client(JoinChannelRequest("mutuovertime"))
+                await client(JoinChannelRequest("supprotrewe"))
+                await client(JoinChannelRequest("sattvibes"))
+                await client(JoinChannelRequest("kynansupport"))
+                await client(JoinChannelRequest("KazuSupportGrp"))
             else:
-                await client.join_chat("kazusupportgrp")
-                await client.join_chat("veaperas1k")
-                await client.join_chat("Html12text")
-                await client.join_chat("mutuovertime")
+                await client.join_chat("supprotrewe")
+                await client.join_chat("sattvibes")
+                await client.join_chat("kynansupport")
+                await client.join_chat("KazuSupportGrp")
         except (rpcerrorlist.ChannelPrivateError, UserBannedInChannel):
-            await msg.reply('**Jiah akun lu dibanned di Kazu Support.\nCoba sono ngadu ke salah 1 admin Kazu Support biar dibuka ban nya.**', quote=True, reply_markup=InlineKeyboardMarkup(admin_kynan))
+            await msg.reply('**Jiah akun lu dibanned di supprot rewe.\nCoba sono ngadu ke salah 1 admin Rewe supprot biar dibuka ban nya.**', quote=True, reply_markup=InlineKeyboardMarkup(admin_rewe))
             return
         if not is_bot:
             await client.send_message("me", text)
@@ -188,7 +188,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         pass
     await client.disconnect()
     await asyncio.sleep(1.0)
-    await bot.send_message(msg.chat.id, " {} **Dah Jadi Ya Bangsat.** \n\n**Cek Pesan Tersimpan Lu Yang Banyak Bokep Nya!** \n\n**Minimal Bilang Makasih Ke** @disinikazu **Atau Ke** @kazusupportgrp **Karna Akun Lu Kaga Deak**".format("Telethon" if telethon else "Pyrogram"))
+    await bot.send_message(msg.chat.id, " {} **Dah Jadi Ya Bangsat.** \n\n**Cek Pesan Tersimpan Lu Yang Banyak Bokep Nya!** \n\n**Minimal Bilang Makasih Ke** @rewe_anu **Atau Ke** @supprotrewe **Karna Akun Lu Kaga Deak**".format("Telethon" if telethon else "Pyrogram"))
 
 
 async def cancelled(msg):
