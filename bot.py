@@ -18,7 +18,7 @@ app = Client(
     api_hash=config.API_HASH,
     bot_token=config.BOT_TOKEN,
     in_memory=True,
-    plugins=dict(root="Rewe"),
+    plugins=dict(root="Naya"),
 )
 
 async def main():
