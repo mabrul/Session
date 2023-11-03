@@ -23,7 +23,7 @@ class Data:
   
     START = """
 *ʜᴇʟʟᴏ {} !*
-✪ ʜᴀɪ sᴀʏᴀ ʀᴇᴡᴇ sᴛʀɪɴɢ ʙᴏᴛ [🤖](https://telegra.ph/file/8cdf4626d7c09eac7b422.jpg)
+✪ ʜᴀɪ sᴀʏᴀ ʀᴇᴡᴇ sᴛʀɪɴɢ ʙᴏᴛ [🤖](https://telegra.ph//file/55ecdb00d0200f5494878.jpg)
 **Selamat Datang Di** {}
 
 **Ini Adalah Bot String Session Anti Deak Ya Bangsat
