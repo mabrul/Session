@@ -23,7 +23,7 @@ async def must_join_channel(bot: Client, msg: Message):
                     f"Si Anjeng, Masuk Sini Dulu Lu Bangsat !",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("Sini Nyet Masuk, Jangan Lupa Salam", url=link)]
+                        [InlineKeyboardButton("Sini Nyet Masuk, Jangan Lupa Salam", url="https//:t.me/nunagabut2)]
                     ])
                 )
                 await msg.stop_propagation()
@@ -33,4 +33,4 @@ async def must_join_channel(bot: Client, msg: Message):
                 "**Maaf, Anda tidak dapat menggunakan bot ini karena anda di banned dari supprot rewe**\n**Silakan contact @rewe_anu agar dibuka blokir anda.**"
             )
     except ChatAdminRequired:
-        print(f"I'm not admin in the MUST_JOIN chat : {MUST_JOIN} !")
+        print(f"I'm not admin in the MUST_JOIN chat :"https//:t.me/supprotrewe")
