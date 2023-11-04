@@ -34,4 +34,4 @@ async def must_join_channel(bot: Client, msg: Message):
                 "**Maaf, Anda tidak dapat menggunakan bot ini karena anda di banned dari supprot rewe**\n**Silakan contact @rewe_anu agar dibuka blokir anda.**"
             )
     except ChatAdminRequired:
-        print(f"I'm not admin in the MUST_JOIN chat :"https//:t.me/supprotrewe")
+        print(f"I'm not admin in the MUST_JOIN chat : {MUST_JOIN} !")
