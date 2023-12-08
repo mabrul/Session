@@ -1,6 +1,6 @@
 import config
 import logging
-from pyrogram import Client
+#from pyrogram import Client, idle
 import time
 import logging
 from pyromod import listen  # type: ignore
